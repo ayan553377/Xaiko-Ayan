@@ -30,7 +30,7 @@ const shortLang = "bn";
 const lang = languagesMap[shortLang] || "bangla";
 
 module.exports.config = {
-  name: "siri",
+  name: "mira",
   version: "1.0.0",
   role: 0,
   author: "dipto",
@@ -72,7 +72,7 @@ module.exports.onStart = async function ({ api, args, event }) {
     const dipto = args.join(" ").toLowerCase();
     if (!args[0]) {
       api.sendMessage(
-        "Hello befi",
+        "Hello bby kmn acho tmi?🫦",
         event.threadID,
         event.messageID,
       );
