@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "bot") return message.reply("bot na amke siri vlo dako 🤭");
+    if (event.body && event.body.toLowerCase() == "bot") return message.reply("bot na bole amke mira bole dako 🤭");
 }
 };
