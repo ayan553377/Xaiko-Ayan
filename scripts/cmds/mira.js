@@ -72,7 +72,7 @@ module.exports.onStart = async function ({ api, args, event }) {
     const dipto = args.join(" ").toLowerCase();
     if (!args[0]) {
       api.sendMessage(
-        "Hello bby kmn acho tmi?🫦",
+        "সখের মানুষটা কে নিয়ে একটা লাইন....?😌🎤",
         event.threadID,
         event.messageID,
       );
